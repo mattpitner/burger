@@ -1,0 +1,16 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root",
+    "port": 8889,
+    "database": "burger_sequelize_db",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
+  }
+}
+
+  
